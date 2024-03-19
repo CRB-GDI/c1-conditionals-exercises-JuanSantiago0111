@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace Exercise4
 {
@@ -6,11 +7,28 @@ namespace Exercise4
     {
         static void Main(string[] args)
         {
-            int people = 11;
-            string weather = "nice";
+            int people = 3;
+            string weather = "bad";
+              
+            if (people <= 11 && weather == "nice")
+            {
+                // this code will run 
+                Console.WriteLine("SaladMart");
+            }
+            else  
+            {
+                // if the above condition isn't met , this code will run 
+                Console.WriteLine("Soup N Sandwich");
+            }
 
-      
+
+
+
+
+
+
 
         }
+        
     }
 }

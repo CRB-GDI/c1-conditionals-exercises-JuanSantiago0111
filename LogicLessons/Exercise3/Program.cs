@@ -7,9 +7,10 @@ namespace Exercise3
         static void Main(string[] args)
         {
             int socks = 6;
-            
+
             //Write an if statement to check whether or not its time to do your laundry
 
+            if (socks <=3) {Console.WriteLine }
 
         }
     }
